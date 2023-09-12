@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question no 6</title>
+    <style>
+        div{
+            padding: 20px 10px;
+            border: 1px dotted;
+            font-size: 19px;
+        }
+        .table{
+            padding: 10px 20px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns:repeat(8,1fr);
+            grid-template-rows: repeat(7,1fr);
+            text-align: center;
+            height: 70vh;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 20px 50px;
+            background-color: aqua;
+        }
+        
+        .row1{
+            background-color: red;
+        }
+        .day{
+            background-color: purple;
+        }
+        .lunch{
+            background-color: yellow;
+            border-top: none;
+            border-bottom: none;
+        }
+        .col-span-2-end{
+            background-color: grey;
+            grid-column-start: 7;
+            grid-column-end: 9;
+        }
+        .col-span-2-start{
+            background-color: grey;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .games{
+            background-color: green;
+            grid-column-start: 7;
+            grid-column-end: 9;
+        }
+        .span{
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="table">
+        <h1 style="text-align: center;"> School Timetable </h1>
+        <div class="container">
+           <div class="row1">Time</div>
+           <div class="row1">08:00AM-09:00AM</div>
+           <div class="row1">09:00AM-10:00AM</div>
+           <div class="row1">10:00AM-11:00AM</div>
+           <div class="row1">11:00AM-12:00PM</div>
+           <div class="row1">12:00PM-01:00PM</div>
+           <div class="row1">01:00PM-02:00PM</div>
+           <div class="row1">02:00PM-03:00PM</div>
+
+           <div class="day">Monday</div>
+           <div class="span">English</div>
+           <div class="span">Biology</div>
+           <div class="span">Physics</div>
+           <div class="span">Chemistry</div>
+           <div class="lunch">L</div>
+           <div class="col-span-2-end">Chemistry Lab</div>
+
+           <div class="day">Tuesday</div>
+           <div class="col-span-2-start">Biology lab</div>
+           <div class="span">Physics</div>
+           <div class="span">Chemistry</div>
+           <div class="lunch">U</div>
+           <div class="span">English</div>
+           <div class="span">Biology</div>
+
+           <div class="day">Wednesday</div>
+           <div class="span">English</div>
+           <div class="span">Biology</div>
+           <div class="span">Physics</div>
+           <div class="span">Chemistry</div>
+           <div class="lunch">N</div>
+           <div class="games">Games</div>
+           
+           <div class="day">Thursday</div>
+           <div class="col-span-2-start">Biology lab</div>
+           <div class="span">Physics</div>
+           <div class="span">Chemistry</div>
+           <div class="lunch">C</div>
+           <div class="span">English</div>
+           <div class="span">Biology</div>
+
+           <div class="day">Friday</div>
+           <div class="span">English</div>
+           <div class="span">Biology</div>
+           <div class="span">Physics</div>
+           <div class="span">Chemistry</div>
+           <div class="lunch">H</div>
+           <div class="col-span-2-end">Physics lab</div>
+
+           <div class="day">Saturday</div>
+           <div class="col-span-2-start">Biology lab</div>
+           <div class="span">Physics</div>
+           <div class="span">Chemistry</div>
+           <div class="lunch">BREAK</div>
+           <div class="games">Let Off</div>
+        </div>
+</body>
+</html>

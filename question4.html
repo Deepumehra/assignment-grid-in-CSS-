@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question no 4</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            
+            padding: 5px;
+            display: grid;
+            height: 550px;
+            width: 90%;
+            grid-template-columns: 600px 400px 200px;
+            margin: 0px 30px;
+        }
+        .item{
+            
+            width: 100%;
+            height: 100%;
+        }
+        h1{
+            margin-top: 200px;
+            margin-left: 50px;
+        }
+        p{
+            margin-left: 50px;
+            margin-top: 20px;
+            color: rgb(9, 136, 240);
+        }
+        .button{
+            margin-left: 50px;
+            width: 120px;
+            margin-top: 10px;
+            height: 40px;
+            background-color: black;
+            color: white;
+        }
+        .item2{
+            margin-right:0px;
+            padding-right: 0px;
+        }
+        .cont1{
+            display: flex;
+            justify-content:start;
+            width: 90%;
+            height: 30px;
+            margin-left: 30px;
+            padding: 10px;
+        }
+        .it1{
+            font-size: 20px;
+            margin-top: 3px;
+        }
+        .it2{
+            font-size: 20px;
+            margin-top: 3px;
+        }
+        .it3{
+            font-size: 20px;
+            margin-top: 3px;
+        }
+        .it4{
+            font-size: 18px;
+            width: auto;
+            background-color: green;
+            color: white;
+            margin-right: 0px;
+            padding: 7px 20px;
+            padding-bottom: 7px;
+            margin-bottom: 2px;
+            border: none;
+        }
+        .footer{
+            display: grid;
+            grid-template-columns:repeat(3,1fr) ;
+            grid-template-rows:repeat(2,1fr) ;
+            grid-gap: 20px 20px;
+            width: 90%;
+            height: 500px;
+            margin: 65px;
+        }
+        .box1{
+            margin-top: 50px;
+            margin-left: 90px;
+        }
+        .box2{
+            margin-top: 50px;
+            margin-left: 90px;
+        }
+        .box3{
+            margin-top: 50px;
+            margin-left: 90px;
+        }
+        .menu{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+            grid-gap: 40px 40px;
+            width: 700px;
+            justify-content: flex-start;
+            height: 500px;
+            margin: 10px;
+        }
+        .order1{
+            margin-top: 50px;
+            margin-left: 64px;
+            width: 310px;
+            height: 430px;
+            border: 3px solid black;
+        }
+        .order2{
+            margin-top: 50px;
+            margin-left: 70px;
+            width: 310px;
+            height: 430px;
+            border: 3px solid black;
+        }
+        .order3{
+            margin-top: 50px;
+            margin-left: 70px;
+            width: 310px;
+            height: 430px;
+            border: 3px solid black;
+        }  
+    </style>
+</head>
+<body>
+    <div style="border: 3px solid black  ; margin: 10px;">
+    <div class="cont1">
+        <div class="item">
+            <img width="60px" height="40px" src="download.png" alt="">
+        </div>
+        <div class=" item it1" >Home</div>
+        <div class=" item it2">About</div>
+        <div class="item it3">Contact</div>
+        <button  class=" it4">Login</button>
+    </div>
+    <div class="container">
+        <div class="item item1">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore mollitia doloremque suscipit nemo cumque ipsum qui fugiat cupiditate nam non consequuntur earum incidunt quas, accusamus aut iste dolore. Similique commodi cumque iure nemo pariatur rem quidem, eligendi accusamus nisi laudantium error molestiae repellendus, dignissimos veritatis ratione velit at aspernatur. Neque, aut officia fugiat explicabo dicta dolor consequuntur tenetur enim in blanditiis sed omnis dignissimos molestias qu</p>
+            <button class="button">Read More</button>
+        </div>
+        <div class="item item2">
+            <img width="100%" height="100%" src="download (2).jpg" alt="">
+        </div>
+        <div class="item item3" style="background: yellow;"></div>
+    </div>
+    <div class="footer"style="background-color: #2b1e16;;">
+        <div class="box1">
+            <img width="200px" height="250px" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf" alt="">
+            <p class="para1" style="font-size: 25px;color: white;">No Minimum Order</p>
+            <p class="para2" style="color: grey;font-size: 18px;">Order in for yourself or for the group, with no restrictions on order value</p>
+        </div>
+        <div class="box2">
+            <img width="200px" height="250px" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy" alt="">
+            <p class="para1" style="font-size: 25px;color: white;">Live Order Tracking</p>
+            <p class="para2" style="color: grey;font-size: 18px;">Know where your order is at all times, from the restaurant to your doorstep
+
+            </p>
+        </div>
+        <div class="box3" ">
+            <img width="200px" height="250px" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn" alt="">
+            <p class="para1" style="font-size: 25px;color: white;">Lightning-Fast Delivery</p>
+            <p class="para2" style="color: grey;font-size: 18px;">Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="order1">
+            <img  width="100%" height="70%" src="order1.jpg" alt="">
+            <p style="padding: 5px; font-size: 30px;color: black;">Oder Online</p>
+            <p>
+                Stay Home and Order Upto Your Door
+            </p>
+        </div>
+        <div class="order2">
+            <img  width="100%" height="70%"  src="order2.jpg" alt="">
+            <p style="padding: 5px; font-size: 30px;color: black;">On-Site-Dining</p>
+            <p>
+                View the City's Favourite Dining venues
+            </p>
+        </div>
+        <div class="order3">
+            <img width="100%" height="70%" src="order3.jpg" alt="">
+            <p style="padding: 5px; font-size: 30px;color: black; ">Nightlife and Clubs</p>
+            <p>
+                Explore the City's top Nightlife Outlets and Book Tables
+            </p>
+        </div>
+    </div>
+    <div>
+</body>
+</html>>
